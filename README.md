@@ -349,17 +349,19 @@ This project demonstrates:
 * Docker packaging and local deployment
 * evaluation and observability mindset
 
-## Screenshots to Add
+## Screenshots
 
-Add these images to improve the portfolio:
+### Homepage
+![Homepage](docs/screenshots/homepage.png)
 
-* Swagger UI for `/api/v1/ask`
-* Example successful `FOUND` response
-* Docker container running successfully
-* Folder structure screenshot
-* Evaluation report snippet
-* Architecture diagram image
-* Terminal logs showing the API running
+### Sample Answer
+![Sample Answer](docs/screenshots/sample-answer.png)
+
+### Docker Running
+![Docker Running](docs/screenshots/docker-running.png)
+
+### Swagger UI
+![Swagger UI](docs/screenshots/swagger-ui.png)
 
 ## Current Scope
 
