@@ -1,0 +1,429 @@
+{
+  "summary": {
+    "total": 20,
+    "correct": 6,
+    "accuracy": 0.3,
+    "found_with_citations": 0,
+    "not_found_total": 6,
+    "not_found_correct": 6,
+    "not_found_accuracy": 1.0,
+    "duration_ms": 19865,
+    "ask_url": "http://127.0.0.1:8000/api/v1/ask"
+  },
+  "failures": [
+    {
+      "id": "q01",
+      "question": "What is the paid time off (PTO) policy?",
+      "expected_verdict": "FOUND",
+      "actual_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response_preview": "{'verdict': 'NOT_FOUND', 'answer': 'Not found in the handbook.', 'citations': []}"
+    },
+    {
+      "id": "q02",
+      "question": "How does PTO accrual work?",
+      "expected_verdict": "FOUND",
+      "actual_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response_preview": "{'verdict': 'NOT_FOUND', 'answer': 'Not found in the handbook.', 'citations': []}"
+    },
+    {
+      "id": "q03",
+      "question": "What holidays are covered in the handbook?",
+      "expected_verdict": "FOUND",
+      "actual_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response_preview": "{'verdict': 'NOT_FOUND', 'answer': 'Not found in the handbook.', 'citations': []}"
+    },
+    {
+      "id": "q04",
+      "question": "What is the sick leave policy?",
+      "expected_verdict": "FOUND",
+      "actual_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response_preview": "{'verdict': 'NOT_FOUND', 'answer': 'Not found in the handbook.', 'citations': []}"
+    },
+    {
+      "id": "q05",
+      "question": "What is the bereavement leave policy?",
+      "expected_verdict": "FOUND",
+      "actual_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response_preview": "{'verdict': 'NOT_FOUND', 'answer': 'Not found in the handbook.', 'citations': []}"
+    },
+    {
+      "id": "q06",
+      "question": "What does the handbook say about parental leave?",
+      "expected_verdict": "FOUND",
+      "actual_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response_preview": "{'verdict': 'NOT_FOUND', 'answer': 'Not found in the handbook.', 'citations': []}"
+    },
+    {
+      "id": "q07",
+      "question": "What is the overtime policy?",
+      "expected_verdict": "FOUND",
+      "actual_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response_preview": "{'verdict': 'NOT_FOUND', 'answer': 'Not found in the handbook.', 'citations': []}"
+    },
+    {
+      "id": "q08",
+      "question": "What is the payroll policy?",
+      "expected_verdict": "FOUND",
+      "actual_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response_preview": "{'verdict': 'NOT_FOUND', 'answer': 'Not found in the handbook.', 'citations': []}"
+    },
+    {
+      "id": "q09",
+      "question": "What is the dress code policy?",
+      "expected_verdict": "FOUND",
+      "actual_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response_preview": "{'verdict': 'NOT_FOUND', 'answer': 'Not found in the handbook.', 'citations': []}"
+    },
+    {
+      "id": "q10",
+      "question": "What are the rules about internet usage at work?",
+      "expected_verdict": "FOUND",
+      "actual_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response_preview": "{'verdict': 'NOT_FOUND', 'answer': 'Not found in the handbook.', 'citations': []}"
+    },
+    {
+      "id": "q11",
+      "question": "What does the handbook say about social media use?",
+      "expected_verdict": "FOUND",
+      "actual_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response_preview": "{'verdict': 'NOT_FOUND', 'answer': 'Not found in the handbook.', 'citations': []}"
+    },
+    {
+      "id": "q12",
+      "question": "What is the policy on workplace harassment?",
+      "expected_verdict": "FOUND",
+      "actual_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response_preview": "{'verdict': 'NOT_FOUND', 'answer': 'Not found in the handbook.', 'citations': []}"
+    },
+    {
+      "id": "q13",
+      "question": "What is the drug-free workplace policy?",
+      "expected_verdict": "FOUND",
+      "actual_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response_preview": "{'verdict': 'NOT_FOUND', 'answer': 'Not found in the handbook.', 'citations': []}"
+    },
+    {
+      "id": "q14",
+      "question": "What is the confidentiality and data protection policy?",
+      "expected_verdict": "FOUND",
+      "actual_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response_preview": "{'verdict': 'NOT_FOUND', 'answer': 'Not found in the handbook.', 'citations': []}"
+    }
+  ],
+  "results": [
+    {
+      "id": "q01",
+      "question": "What is the paid time off (PTO) policy?",
+      "expected_verdict": "FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 2507,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": false
+    },
+    {
+      "id": "q02",
+      "question": "How does PTO accrual work?",
+      "expected_verdict": "FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 1641,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": false
+    },
+    {
+      "id": "q03",
+      "question": "What holidays are covered in the handbook?",
+      "expected_verdict": "FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 1199,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": false
+    },
+    {
+      "id": "q04",
+      "question": "What is the sick leave policy?",
+      "expected_verdict": "FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 890,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": false
+    },
+    {
+      "id": "q05",
+      "question": "What is the bereavement leave policy?",
+      "expected_verdict": "FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 882,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": false
+    },
+    {
+      "id": "q06",
+      "question": "What does the handbook say about parental leave?",
+      "expected_verdict": "FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 837,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": false
+    },
+    {
+      "id": "q07",
+      "question": "What is the overtime policy?",
+      "expected_verdict": "FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 841,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": false
+    },
+    {
+      "id": "q08",
+      "question": "What is the payroll policy?",
+      "expected_verdict": "FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 844,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": false
+    },
+    {
+      "id": "q09",
+      "question": "What is the dress code policy?",
+      "expected_verdict": "FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 842,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": false
+    },
+    {
+      "id": "q10",
+      "question": "What are the rules about internet usage at work?",
+      "expected_verdict": "FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 848,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": false
+    },
+    {
+      "id": "q11",
+      "question": "What does the handbook say about social media use?",
+      "expected_verdict": "FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 839,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": false
+    },
+    {
+      "id": "q12",
+      "question": "What is the policy on workplace harassment?",
+      "expected_verdict": "FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 845,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": false
+    },
+    {
+      "id": "q13",
+      "question": "What is the drug-free workplace policy?",
+      "expected_verdict": "FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 866,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": false
+    },
+    {
+      "id": "q14",
+      "question": "What is the confidentiality and data protection policy?",
+      "expected_verdict": "FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 863,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": false
+    },
+    {
+      "id": "q15",
+      "question": "Does the handbook mention a Bitcoin allowance policy?",
+      "expected_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 847,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": true
+    },
+    {
+      "id": "q16",
+      "question": "Does the handbook describe a stock options plan?",
+      "expected_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 858,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": true
+    },
+    {
+      "id": "q17",
+      "question": "Does the handbook include a company scholarship program?",
+      "expected_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 878,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": true
+    },
+    {
+      "id": "q18",
+      "question": "Does the handbook define a 4-day work week policy?",
+      "expected_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 834,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": true
+    },
+    {
+      "id": "q19",
+      "question": "Does the handbook mention free gym membership for all employees?",
+      "expected_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 829,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": true
+    },
+    {
+      "id": "q20",
+      "question": "Does the handbook mention unlimited vacation policy?",
+      "expected_verdict": "NOT_FOUND",
+      "http_status": 200,
+      "response": {
+        "verdict": "NOT_FOUND",
+        "answer": "Not found in the handbook.",
+        "citations": []
+      },
+      "latency_ms": 865,
+      "actual_verdict": "NOT_FOUND",
+      "citations_count": 0,
+      "is_correct": true
+    }
+  ]
+}
